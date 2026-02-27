@@ -1,0 +1,12 @@
+{
+    "controller_schedules": [
+        {
+            "description": "Example schedule \u2014 replace with your schedule",
+            "enabled": false,
+            "name": "sch-demo_alpha-example",
+            "organization": "org-demo_alpha",
+            "rrule": "DTSTART;TZID=UTC:20260101T060000 RRULE:FREQ=WEEKLY;BYDAY=MO",
+            "unified_job_template": "jt-demo_alpha-example"
+        }
+    ]
+}
