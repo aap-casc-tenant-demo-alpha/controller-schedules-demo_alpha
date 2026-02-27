@@ -1,0 +1,12 @@
+{
+    "controller_schedules": [
+        {
+            "name": "sch-demo_alpha-nightly_hello",
+            "description": "Nightly hello_world schedule for tenant Alpha",
+            "unified_job_template": "jt-demo_alpha-hello_world",
+            "organization": "org-demo_alpha",
+            "rrule": "DTSTART;TZID=UTC:20260101T060000 RRULE:FREQ=DAILY;INTERVAL=1",
+            "enabled": false
+        }
+    ]
+}
